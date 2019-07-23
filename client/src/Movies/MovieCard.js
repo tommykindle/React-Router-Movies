@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-console.log("stars", stars);
+
 const MovieCard = props => {
 
   return (
@@ -15,7 +15,7 @@ const MovieCard = props => {
       </div>
       <h3>Actors</h3>
 
-      {props.moive.stars.map(star => (
+      {props.movie.stars.map(star => (
         <div key={star} className="movie-star">
           {star}
         </div>
